@@ -12,7 +12,7 @@ export default function Home() {
        
         <div className="mb-8 flex flex-col xl:flex-row items-center justify-center xl:space-y-0 space-y-8">        
           <div className="container h-full px-4 xl:px-0 flex flex-col items-center xl:items-start text-center xl:text-left">
-      
+            {/* On centre bien le contenu */}
             <span className="text-2xl md:text-4xl">FULLSTACK JAVASCRIPT</span>
             <h1 className="text-2xl md:text-4xl mb-6">
               Je suis <br /> 
@@ -29,7 +29,7 @@ export default function Home() {
       size="lg"
       className="uppercase flex items-center gap-2"
     >
-      
+      {/* Directement dans le Link sans <a> */}
       <Link href="/assets/cv Rassoul.pdf" passHref download="cv.pdf">
         <span className="flex items-center gap-2 text-accent hover:text-primary">
           <span>Télécharger CV</span>

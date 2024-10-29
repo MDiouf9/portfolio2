@@ -54,7 +54,7 @@ const projects = [
     num: "05",
     category: "frontend",
     title: "Projet",
-    description: " Gestion de budget",
+    description: "Lorem ipsum description...",
     stack: [{ name: "React js" }, { name: "Tailwind css" }, { name: "Nest js" }],
     image: "/assets/projetbudget.png",
     voir: "https://final-examen-frontend.vercel.app/",

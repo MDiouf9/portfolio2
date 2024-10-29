@@ -29,7 +29,7 @@ export default function Home() {
       size="lg"
       className="uppercase flex items-center gap-2"
     >
-      
+      {/* Directement dans le Link sans <a> */}
       <Link href="/assets/cv Rassoul.pdf" passHref download="cv.pdf">
         <span className="flex items-center gap-2 text-accent hover:text-primary">
           <span>Télécharger CV</span>
