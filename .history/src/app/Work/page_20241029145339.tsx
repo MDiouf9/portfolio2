@@ -24,7 +24,7 @@ const projects = [
     num: "02",
     category: "frontend",
     title: "Projet",
-    description: " premier potfolio",
+    description: "",
     stack: [{ name: "HTML" }, { name: "CSS" }],
     image: "/assets/first-portfolio.png",
     voir: "https://mdiouf9.github.io/projet-examen/",
